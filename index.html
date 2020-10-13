@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            ChatBot
+        </title>
+        
+        <style>
+            .chatclass{
+                height: 100px;
+                width: 450px;
+                font-size: small;
+                border: 5px outset red;
+                background-color:lightblue;
+                text-align: center;
+            }
+        </style>
+        <style> 
+            input[type=text] {
+              width: 400px;
+              
+            }
+        </style>
+    </head>
+    <body>
+        <div class="chatclass">
+            <h1>I am a Chatbot!</h1>
+            <p>How can i help?</p>
+        </div> <br><br>
+        <form class="message-box" id="mymsg" method="POST">
+            <input type="text" id="MSG" name="MSG" class="message-input" placeholder="Type message..." >
+               
+                
+            <button type="submit" class="message-submit">Send</button>
+        </form>
+    </body>
+    
+</html>
